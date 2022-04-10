@@ -1,0 +1,16 @@
+package com.hamitmizrak.ecodationspringframework1.utils;
+
+public class XmlName {
+    // pom.xml          ==> kütüphaneleri eklemeye yarar. (maven)
+    // web.xml          ==> project konfiguration yapmak  (src/main/webapp/WEB-INF/web.xml)
+    // faces-config.xml ==> Jsf icin                      (src/main/webapp/WEB-INF/faces-config.xml)
+    // beans.xml        ==> cdi bean                      (src/main/resources/META-INF/beans.xml)
+    // index.xhtml      ==> src/main/webapp/index.xhtml
+
+    /*
+    Jar - Java Archive : herhangi bir müdahaleye gerek kalmadan java direk kullanabilir.
+    War - Web Application Archive: Bir web sunucusu tarafından okunabilen dosyalar. (tomcat, WAS, wildfly vb.) içinde jar'lar bulundurabilir.
+    Ear - Enterprise Archive : Bir application server tarafından okunabilen dosyalar. (WAS, Wildfly vb) İçinde war ve jar dosyaları bulunabilir.
+     */
+
+}
