@@ -1,4 +1,4 @@
-package com.hamitmizrak.ecodationspringframework1.utils;
+package com.hamitmizrak.utils;
 
 public class XmlName {
 //     pom.xml          ==> kütüphaneleri eklemeye yarar. (maven)

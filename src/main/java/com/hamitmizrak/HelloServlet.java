@@ -1,4 +1,4 @@
-package com.hamitmizrak.ecodationspringframework1;
+package com.hamitmizrak;
 
 import java.io.*;
 import javax.servlet.http.*;
