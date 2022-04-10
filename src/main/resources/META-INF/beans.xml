@@ -4,4 +4,10 @@
        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
                       http://xmlns.jcp.org/xml/ns/javaee/beans_2_0.xsd"
        bean-discovery-mode="all">
+
+    <!--alternatives-->
+    <alternatives>
+        <!--<class>com.hamitmizrak.alternative._1_JavaVersion1</class>-->
+        <class>com.hamitmizrak.alternative._2_JavaVersion2</class>
+    </alternatives>
 </beans>

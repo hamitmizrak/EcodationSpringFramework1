@@ -7,5 +7,6 @@ public class AllAnnotation {
     @Produces
     @Inject
     @New
+    @Alternative
     */
 }
