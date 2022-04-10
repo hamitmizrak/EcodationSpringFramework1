@@ -8,5 +8,7 @@ public class AllAnnotation {
     @Inject
     @New
     @Alternative
+
+    @Default
     */
 }
