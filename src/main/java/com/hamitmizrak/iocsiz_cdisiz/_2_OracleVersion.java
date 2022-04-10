@@ -5,12 +5,12 @@ import javax.inject.Named;
 
 @Named(value="iocsiz")
 @ApplicationScoped
-public class OracleVersion {
+public class _2_OracleVersion {
 
-    private JavaVersion javaVersion;
+    private _1_JavaVersion javaVersion;
 
-    public OracleVersion() {
-        javaVersion=new JavaVersion();
+    public _2_OracleVersion() {
+        javaVersion=new _1_JavaVersion();
     }
 
     public String oracleVersionMethod(String data){
