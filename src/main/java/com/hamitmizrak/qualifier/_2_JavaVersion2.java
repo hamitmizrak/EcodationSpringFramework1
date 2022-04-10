@@ -1,6 +1,5 @@
 package com.hamitmizrak.qualifier;
 
-import javax.enterprise.inject.Alternative;
 
 @QualifierMultiple
 public class _2_JavaVersion2 implements _0_IJavaInterface {
