@@ -6,6 +6,6 @@ public class AllAnnotation {
     @ApplicationScoped
     @Produces
     @Inject
-
+    @New
     */
 }
