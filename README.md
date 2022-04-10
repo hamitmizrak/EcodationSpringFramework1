@@ -1,5 +1,6 @@
 # EcodationSpringFramework1
 Jdk 17
+Wildfly 26.0.1
 
 --- 
 ## Dependency
