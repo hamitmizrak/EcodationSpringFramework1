@@ -1,14 +1,11 @@
 package com.hamitmizrak.cdi;
-
 import lombok.*;
-
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.inject.New;
 import javax.enterprise.inject.Produces;
 import javax.inject.Inject;
 import javax.inject.Named;
-import java.util.ArrayList;
-import java.util.List;
+
 
 //lombok
 @Data
