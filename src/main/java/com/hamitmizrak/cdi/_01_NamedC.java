@@ -22,5 +22,4 @@ public class _01_NamedC implements Serializable {
 
     private String adi="@Named Merhabalar";
 
-
 }
