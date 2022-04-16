@@ -8,7 +8,7 @@ import javax.inject.Named;
 @ApplicationScoped
 public class _3_OracleVersion {
 
-    //default
+ //   default
 //    @Inject
 //    private _0_IJavaInterface iJavaInterface;
 

@@ -10,4 +10,9 @@
         <!--<class>com.hamitmizrak.alternative._1_JavaVersion1</class>-->
         <class>com.hamitmizrak.alternative._2_JavaVersion2</class>
     </alternatives>
+
+    <!--interceptor-->
+    <interceptors>
+        <class>com.hamitmizrak.aop._3_InterceptorYolKesiciAsilIs</class>
+    </interceptors>
 </beans>
