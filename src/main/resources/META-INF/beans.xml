@@ -15,4 +15,10 @@
     <interceptors>
         <class>com.hamitmizrak.aop._3_InterceptorYolKesiciAsilIs</class>
     </interceptors>
+
+    <!--decorators-->
+    <decorators>
+        <class>com.hamitmizrak.decorator._4_DecoratorAsilIs</class>
+    </decorators>
+
 </beans>
