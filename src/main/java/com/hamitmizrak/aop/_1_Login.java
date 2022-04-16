@@ -5,6 +5,7 @@ package com.hamitmizrak.aop;
 @InterceptorKesici
 public class _1_Login {
 
+    //public bir sayfa herkes görebilir.
     public String isLoginMethod(String data){
         return "isLogin: "+data;
     }

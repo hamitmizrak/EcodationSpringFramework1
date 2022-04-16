@@ -24,23 +24,13 @@ public class _3_InterceptorYolKesiciAsilIs {
 
     @AroundInvoke
     public Object isLogin(InvocationContext context) {
-        System.out.println("Method bilgisi: "+context.getMethod().getName());
 
         //database böyle bir kullanıcı var mı yok mu ?
-        //kullanıcı sisteme kayıtlı değil
-        //boolean isLogin=true;
+        //kullanıcı sisteme kayıtlı değilse ==> boolean isLogin=true;
+        //kullanıcı sisteme kayıtlı ise     ==> boolean isLogin=false;
 
         //kullanıcı sisteme kayıtlı ise false
         String email="root44@gmail.com",password="root";
-//        Scanner klavye=new Scanner(System.in);
-//        System.out.println("Lütfen email giriniz ");
-//
-//        email=klavye.nextLine();
-//        System.out.println("Lütfen password giriniz ");
-//        password=klavye.nextLine();
-
-//        email= JOptionPane.showInputDialog("Lütfen email giriniz");
-//        password= JOptionPane.showInputDialog("Lütfen password giriniz");
         boolean isLogin=databaseSearch(email,password);
 
         //Database kullanıcı varsa devam etsin yoksa sisteme giriş yapamazsınız yazsın
@@ -53,6 +43,7 @@ public class _3_InterceptorYolKesiciAsilIs {
         }else{
             try {
                 isContinue=  context.proceed(); //devam etsin
+                System.out.println("Method bilgisi: "+context.getMethod().getName());
                 System.out.println("Hoşgeldiniz Sayın : Ferhat");
                 System.out.println("Sisteme Giriş yapıldı. "+isContinue);
             }catch(Exception e){
