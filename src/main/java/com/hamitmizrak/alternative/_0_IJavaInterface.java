@@ -4,5 +4,6 @@ package com.hamitmizrak.alternative;
 
 public interface _0_IJavaInterface {
 
+    //gövdesiz method
     public String versions(String data);
 }
